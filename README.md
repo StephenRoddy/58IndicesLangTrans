@@ -22,9 +22,9 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
 ## Directions
 
-    Follow link for the Piece: [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
-    Press Play Index to hear an index and see the translation.
-    Press Play Index again to hear another one.
+   1.Follow link for the Piece: [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
+   2.Press 'Play Index' to hear an index, view the waveform and see the translation.
+   3.Press 'Play Index' again for another one.
 
 [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
 
