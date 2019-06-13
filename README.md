@@ -24,9 +24,11 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
    1. Follow link for the Piece: [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
    
-   2. Press 'Play Index' to hear an index, view the waveform and see the translation.
+   2. Wait for the page to load.
    
-   3. Press 'Play Index' again for another one.
+   3. Press 'Play Index' to hear an index, view the waveform and see the translation.
+   
+   4. Press 'Play Index' again for another one.
 
 [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
 
