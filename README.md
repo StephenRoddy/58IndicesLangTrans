@@ -1,12 +1,14 @@
 ## 58 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
 
-[Click Here for the Piece] (https://appdemo-lgtm.github.io/JLNProjectISSTA/)
+[Click Here for the Piece] (https://stephenroddy.github.io/58IndicesLangTrans/)
 
 
 This project grew in dialogue with another ongoing project titled 58+1 Indices on the body. That project is a collaboration between the artistic collective AMAE and the artist Pier Giorgio De Pinto. The topics come from the treaty 58 indices sur le corps (Editor’s note 58 indices on the body), written in 2006 by Jean-Luc Nancy and related to his book Corpus. The project combines performances, videos, interactive installations and collaborations with many artists.
 
 As part of this project Jean Luc Nancy recorded himself reading the 58 indices on the body he included in the book 'Corpus', he also wrote an additional index specifically for the project. 
 The project presented here grew out of a collaboration with AMAE, Pier Giorgio De Pinto and Jean Luc Nancy in which the artist applying here originally set some of these indices to music in 2015. The result was a piece that the collaborators were invited to present during the Helicotrema festival at the Francois Pinault Foundation in Venice alongside La Biennale events taking place throughout the city.
+
+[Helicotrema 2015] (http://helicotrema.blauerhase.com/helicotrema-2015/)
 
 Later the artist recorded additional Soundworks and musical pieces incorporating Nancy's indexes, a portion of which will be set to dance as part of the 63 Videos on the Body project.
 
@@ -27,12 +29,19 @@ The piece can also be made available for the audience to experience at the confe
 
 In the interests of anonymity, the name of the artist has not been provided. 
 
-## The Piece:
-Directions:
-1. Press Play Index to hear an index and see the translation.
-2. Press Play Index again to hear another one. 
+## Directions
 
-[Click Here for the Piece] (https://appdemo-lgtm.github.io/JLNProjectISSTA/)
+    Follow link for the Piece: [Click Here for the Piece] (https://stephenroddy.github.io/58IndicesLangTrans/)
+    Press Play Index to hear an index and see the translation.
+    Press Play Index again to hear another one.
+
+[Click Here for the Piece] (https://stephenroddy.github.io/58IndicesLangTrans/)
+
+
+
+## Technical/Performance Requirements:
+
+The audio is mixed for a standard stereo setup. The entire performance is available as a web app. The piece can be installed using two stereo speakers, a screen/projector and an interaction medium. The piece can also be made available for the audience to experience via the Web App. This can be launched locally from a laptop or accessed online during the performance.
 
 
 ## Credits
