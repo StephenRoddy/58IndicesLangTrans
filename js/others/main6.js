@@ -30,7 +30,8 @@ function uploadedAudioPlay(audioFile) {
 
 function setup() {
 
-	uploadAnim = select('#uploading-animation');
+uploadAnim = 0;
+//	uploadAnim = select('#uploading-animation');
 
 	createCanvas(windowWidth, windowHeight);
 
@@ -39,7 +40,7 @@ function setup() {
 	uploadBtn = createFileInput(uploaded);
 
 	uploadBtn.addClass("upload-btn");
-	
+
 	toggleBtn.addClass("toggle-btn");
 
 	toggleBtn.mousePressed(toggleAudio);
@@ -59,11 +60,13 @@ function draw() {
 
 	// Add a loading animation for the uploaded track
 	// -----------------------------------------------
+/*
 	if (uploadLoading) {
 		uploadAnim.addClass('is-visible');
 	} else {
 		uploadAnim.removeClass('is-visible');
 	}
+*/
 
 	background(colorPalette[0]);
 
@@ -115,7 +118,7 @@ function draw() {
 		pop();
 
 
-		/*----------  TREMBLE  ----------*/
+		/*----------  TREBLE  ----------*/
 		push();
 		stroke(colorPalette[3]);
 		strokeWeight(0.6);
