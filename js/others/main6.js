@@ -28,7 +28,6 @@ function setup() {
 
 
     //toggleBtn.mousePressed(toggleBtn);
-    toggleBtn.mousePressed(fullscreen);
 
     fft = new p5.FFT();
     fft.setInput(audio);
@@ -45,6 +44,7 @@ function setup() {
     toggleBtn.mousePressed(toggleAudio);
     toggleBtn.mousePressed(textHandler);
     toggleBtn.mousePressed(getSentiment);
+    toggleBtn.mousePressed(fullscreen);
 
   //  console.log(prediction);
 
