@@ -1,6 +1,5 @@
-var pieces, radius, fft, analyzer, mapMouseX, mapMouseY, audio, toggleBtn, uploadBtn, uploadedAudio, uploadAnim;
+var pieces, radius, fft, analyzer, mapMouseX, mapMouseY, audio, toggleBtn;
 var colorPalette = ["#02073c", "#5b0ff5", "#f50fac", "#f50fac"];
-var uploadLoading = false;
 
 /*=============================================
   SETUP
@@ -10,36 +9,12 @@ function preload() {
 	audio = loadSound("audio/DEMO_5.mp3");
 }
 
-function uploaded(file) {
-	uploadLoading = true;
-	uploadedAudio = loadSound(file.data, uploadedAudioPlay);
-}
-
-
-function uploadedAudioPlay(audioFile) {
-
-	uploadLoading = false;
-
-	if (audio.isPlaying()) {
-		audio.pause();
-	}
-
-	audio = audioFile;
-	audio.loop();
-}
 
 function setup() {
-
-uploadAnim = 0;
-//	uploadAnim = select('#uploading-animation');
 
 	createCanvas(windowWidth, windowHeight);
 
 	toggleBtn = createButton("Play / Pause");
-
-	uploadBtn = createFileInput(uploaded);
-
-	uploadBtn.addClass("upload-btn");
 
 	toggleBtn.addClass("toggle-btn");
 
@@ -57,16 +32,6 @@ uploadAnim = 0;
   DRAW
 =============================================*/
 function draw() {
-
-	// Add a loading animation for the uploaded track
-	// -----------------------------------------------
-/*
-	if (uploadLoading) {
-		uploadAnim.addClass('is-visible');
-	} else {
-		uploadAnim.removeClass('is-visible');
-	}
-*/
 
 	background(colorPalette[0]);
 
