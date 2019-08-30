@@ -58,7 +58,7 @@ a:focus {
 }
 
 canvas {
-	position: absolute;
+	position: relative;
 	left: 50%;
 	top: 50%;
 	-webkit-transform: translate(0%, 0%);
