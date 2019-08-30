@@ -28,7 +28,7 @@ function setup() {
 
 
     //toggleBtn.mousePressed(toggleBtn);
-    //toggleBtn.mousePressed(fullscreen);
+    toggleBtn.mousePressed(fullscreen);
 
     fft = new p5.FFT();
     fft.setInput(audio);
