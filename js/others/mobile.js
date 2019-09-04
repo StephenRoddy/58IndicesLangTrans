@@ -12,7 +12,7 @@ function setup() {
     createCanvas(windowWidth*.333, windowHeight*.333);
 
 
-    //toggleBtn.mousePressed(toggleBtn);
+    //toggleBtn.mousePressed(toggleBtn); 
 
     fft = new p5.FFT();
     fft.setInput(audio);
