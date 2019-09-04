@@ -114,7 +114,7 @@ function modelReady() {
   console.log("Model Loaded!");
 }
 
-/*
+
 function fullScren() {
     let fs = fullscreen();
     fullscreen(!fs);
@@ -123,4 +123,4 @@ function fullScren() {
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
 }
-*/
+
