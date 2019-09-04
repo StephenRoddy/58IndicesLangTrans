@@ -63,13 +63,13 @@ function toggleAudio() {
     if (audio.isPlaying()) {
       audio.stop();
       rndIndx = Math.floor((Math.random() * plyArr.length));
-      audio = loadSound(plyArr[rndIndx]);
+      audio = loadSound(function preload() {plyArr[rndIndx]});
       indNum = rndIndx;
       audio.play();
     } else {
       audio.stop();
       rndIndx = Math.floor((Math.random() * plyArr.length));
-      audio = loadSound(plyArr[rndIndx]);
+      audio = loadSound(function preload() {plyArr[rndIndx]});
       indNum = rndIndx;
       audio.play();
     }
