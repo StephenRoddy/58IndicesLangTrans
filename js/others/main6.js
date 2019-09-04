@@ -80,13 +80,13 @@ function toggleAudio() {
   //  plyArr= plyArr;
     if (audio.isPlaying()) {
       audio.stop();
-      rndIndx = Math.floor((Math.random() * 11));
+      rndIndx = Math.floor((Math.random() * plyArr.length));
       audio = plyArr[rndIndx];
       indNum = rndIndx;
       audio.play();
     } else {
       audio.stop();
-      rndIndx = Math.floor((Math.random() * 11));
+      rndIndx = Math.floor((Math.random() * plyArr.length));
       audio = plyArr[rndIndx];
       indNum = rndIndx;
       audio.play();
