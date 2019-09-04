@@ -1,7 +1,4 @@
-//var sentiment,prediction,saScore,sntMnt, indNum, cover,audio,corpus,comp1,comp2,index9,index15,index18,index21,index22,index24,index27,index32,index45,index46,index47,index51,toggleBtn,txtNotes;
-
-var sentiment,prediction,saScore,sntMnt, indNum, cover,audio,corpus,comp1,comp2,index9,toggleBtn,txtNotes;
-
+var sentiment,prediction,saScore,sntMnt, indNum, cover,audio,corpus,comp1,comp2,index9,index15,index18,index21,index22,index24,index27,index32,index45,index46,index47,index51,toggleBtn,txtNotes;
 
 function preload() {
     audio = loadSound("audio/Corpus.mp3");
