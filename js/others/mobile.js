@@ -20,7 +20,7 @@ function preload() {
 
 function setup() {
 
-    createCanvas(windowWidth*.333, windowHeight*.333);
+    createCanvas(windowWidth*.5, windowHeight*.333);
 
 
     //toggleBtn.mousePressed(toggleBtn);
