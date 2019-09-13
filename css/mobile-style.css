@@ -128,14 +128,12 @@ canvas {
 }
 
 .txt-note {
-	padding: 10px;
 	text-align: center;
 	letter-spacing: 0.1em;
 	color: currentColor;
 	position: fixed;
 	text-align:left;
 	border: 1px solid;
-	width: 75vmax;
 }
 
 
@@ -144,18 +142,12 @@ canvas {
 	color: currentColor;
 	float: right;
 	margin: 10vmax;
-  top: 2.5vmax;
+  	top: 2.5vmax;
 	left: 2.5vmax;
 
 }
 
-.txt-note:focus {
-	outline: none;
-}
 
-.txt-note:hover {
-	color: #fff;
-}
 
 .hc-img {
 	width: 35vmax;
@@ -205,6 +197,5 @@ canvas {
 		 position: absolute;
 		 overflow: scroll;
 		 width: 75%;
-		 height: 33%;
-		 pointer-events: none;
+		 height: 100px;
 }
