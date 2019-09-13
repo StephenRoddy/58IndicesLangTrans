@@ -128,13 +128,14 @@ canvas {
 }
 
 .txt-note {
+	padding: 10px;
 	text-align: center;
 	letter-spacing: 0.1em;
 	color: currentColor;
-	position: relative;
+	position: fixed;
 	text-align:left;
 	border: 1px solid;
-	width: 100%;
+	width: 75vmax;
 }
 
 
@@ -200,7 +201,7 @@ canvas {
 }
 
 	.txt-note {
-		 visibility: hidden;
+		
 		 position: absolute;
 		 overflow: scroll;
 		 width: 0;
