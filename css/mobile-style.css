@@ -204,7 +204,7 @@ canvas {
 		
 		 position: absolute;
 		 overflow: scroll;
-		 width: 90%;
-		 height: 90%;
+		 width: 75%;
+		 height: 33%;
 		 pointer-events: none;
 }
