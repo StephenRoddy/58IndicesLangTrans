@@ -108,8 +108,8 @@ canvas {
 .txt-note {
 	background: transparent;
 	color: currentColor;
-	float: right;
-	margin: 7vmax;
+	float: left;
+	margin: 10vmax;
   	top: 2.5vmax;
 	left: 2.5vmax;
 
