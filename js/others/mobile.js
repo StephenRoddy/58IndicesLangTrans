@@ -1,7 +1,7 @@
 var sentiment,prediction,saScore,sntMnt, indNum, cover,audio,corpus,comp1,comp2,index9,index15,index18,index21,index22,index24,index27,index32,index45,index46,index47,index51,toggleBtn,txtNotes;
 
 function preload() {
-    audio = loadSound("audio/Corpus.mp3");
+    audio = loadSound("audio/Index 9.mp3");
     index9 = loadSound("audio/Index 9.mp3");
     index15 = loadSound("audio/Index 15.mp3");
     index18 = loadSound("audio/Index 18.mp3");
@@ -22,10 +22,6 @@ function setup() {
 
     createCanvas(windowWidth*.75, windowHeight*.333);
 
-
-    //toggleBtn.mousePressed(toggleBtn);
-    //toggleBtn.mousePressed(fullscreen);
-
     fft = new p5.FFT();
     fft.setInput(audio);
 
@@ -42,10 +38,6 @@ function setup() {
     toggleBtn.mousePressed(textHandler);
     toggleBtn.mousePressed(getSentiment);
 
-  //  console.log(prediction);
-
-  //  cover = createDiv('<img src="lib/cover.jpg"></img>');
-  //  cover.addClass("hc-img");
 }
 
 function draw() {
