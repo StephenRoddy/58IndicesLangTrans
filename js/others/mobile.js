@@ -20,7 +20,7 @@ function preload() {
 
 function setup() {
 
-    createCanvas(windowWidth*.75, windowHeight*.333);
+    createCanvas(windowWidth*.5, windowHeight*.5);
 
     fft = new p5.FFT();
     fft.setInput(audio);
@@ -109,6 +109,6 @@ function fullScren() {
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth*.75, windowHeight*.333);
+    resizeCanvas(windowWidth*.5, windowHeight*.5);
 }
 
