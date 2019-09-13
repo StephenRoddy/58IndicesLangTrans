@@ -117,6 +117,6 @@ function fullScren() {
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth*.333, windowHeight*.333);
+    resizeCanvas(windowWidth*.5, windowHeight*.333);
 }
 
