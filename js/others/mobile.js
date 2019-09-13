@@ -9,7 +9,7 @@ function preload() {
 
 function setup() {
 
-    createCanvas(windowWidth*.333, windowHeight*.333);
+    createCanvas(windowWidth, windowHeight);
 
 
     //toggleBtn.mousePressed(toggleBtn); 
@@ -105,5 +105,5 @@ function fullScren() {
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth*.333, windowHeight*.333);
+    resizeCanvas(windowWidth, windowHeight);
 }
